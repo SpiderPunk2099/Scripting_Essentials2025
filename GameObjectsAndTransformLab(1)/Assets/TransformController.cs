@@ -13,7 +13,8 @@ public class TransformController : MonoBehaviour
         transform.position = p;  // Apply the new position
 
         // Rotate the target GameObject
-        transform.Rotate(new Vector3(0, 30, 0) * Time.deltaTime);  // Rotate with a fixed speed
+        transform.Rotate(new Vector3(0, 70, 0) * Time.deltaTime);  // Rotate with a fixed speed
+        transform.Rotate(new Vector3(30, 0, 0) * Time.deltaTime); // Rotate around x axis
 
     }
 }
